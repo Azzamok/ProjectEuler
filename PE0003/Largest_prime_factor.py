@@ -6,7 +6,7 @@ Aaron Mok
 08/09/14
 """
 import math
-#Overflow error
+#Overflow error, method doesn't work
 def largest_prime(num):
     arr = [True] * num
     root = math.sqrt(num)
